@@ -11,6 +11,6 @@ app.get('/', function (req, res) {
     res.sendfile('./homePage.html')
 })
 
-app.listen(3000, function () {
+app.listen(3444, function () {
     console.log('Example app listening on port 3444!')
 })
